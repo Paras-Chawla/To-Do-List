@@ -1,0 +1,40 @@
+
+.workbg{
+    background-image: url('../images/workbg.jpg');
+    /* background-color: rebeccapurple; */
+    background-size: cover;
+
+}
+.homebg{
+    background-image: url('../images/homebg.jpg');
+    background-size: cover;
+}
+button{
+    margin:0 0.2cm 0 0.2cm;
+}
+.container {
+    backdrop-filter: blur(5px);
+    /* background-color: #212529;  */
+    /* background-image: url('../images/divbg.jpg'); */
+
+    position: absolute;
+    /* margin-top: 10px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 500px;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+.check{
+    text-align: left;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.dustbin{
+    margin-bottom: 2px;
+}
