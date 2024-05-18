@@ -26,16 +26,13 @@
       </script>
       <script>
   $(document).ready(function() {
-    // Select all checkboxes with the class "form-check-input"
     var checkboxes = document.querySelectorAll(".form-check-input");
     checkboxes.forEach(function(checkbox) {
       checkbox.addEventListener('change', function() {
         if (this.checked) {
-          // Apply the "strikethrough" class to the label
           this.nextElementSibling.classList.add("strikethrough");
           console.log("checked");
         } else {
-          // Remove the "strikethrough" class from the label
           this.nextElementSibling.classList.remove("strikethrough");
           console.log("unchecked");
         }
